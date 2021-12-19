@@ -1,9 +1,36 @@
+<!DOCTYPE html>
 <html>
- 
+
+<head>
+    <meta charset="utf-8">
+    <title>stronka</title>
+    <meta name="description" content="moja stronka hihi">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
 <body>
-  <h1>test</h1>
-  <p>test test</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <h1>Witam na stronce :)</h1>
+    <p><strong>oto kot:</strong></p>
+
+    <figure>
+        <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpetsreporter.com%2Fwp-content%2Fuploads%2F2020%2F11%2FWeird-Cat-Behaviors-Explained-6-1.jpg&f=1&nofb=1' alt='kotek' />
+
+        <figcaption>
+            kotek typu: bochenek
+        </figcaption>
+    </figure>
+
+    <script>
+        function play() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    </script>
+
+    <input type="button" value="poglascz" onclick="play()">
+    <audio id="audio" src="meow.mp3"></audio>
+
+
 </body>
- 
+
 </html>

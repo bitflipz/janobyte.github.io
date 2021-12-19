@@ -1,0 +1,22 @@
+* {
+    font-family: Helvetica;
+    text-align: center;
+}
+
+h1 {
+    color: violet;
+}
+
+p {
+    color: blueviolet;
+}
+
+img {
+    width: 600px;
+    height: auto;
+    border: 5px solid violet;
+}
+
+body {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpavbca.com%2Fwalldb%2Foriginal%2F6%2F6%2Fa%2F207576.jpg&f=1&nofb=1');
+}
